@@ -26,7 +26,7 @@ To drop a view by
 Syntax: DROP VIEW viewname;
 ```
 ## PROCEDURE
-```
+
 1. Start the program. 
 2. Read the given query.
 3. Write the sub query for a given query.
@@ -36,7 +36,7 @@ Syntax: DROP VIEW viewname;
 	SELECT FROM relation_name WHERE (Condition);
 5. Show the output
 6. Stop the program
-```
+
 ### QUERY 
 ### QUERY 1
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/aa352852-f1d3-4c43-bb4e-7aabdec31262)
@@ -61,7 +61,7 @@ WHERE customer_id =
     (SELECT salesman_id - 2001
      FROM salesman
      WHERE name = 'Mc Lyon');
-     ```
+```
 ### TEST QUERY AND ITS OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/c7dae58e-3c29-4bf5-88cb-40b86b2cd4f9)
 ### QUERY 3
@@ -135,16 +135,19 @@ FROM StudentDetails1
 WHERE S_ID < 5;
 ```
 ### TEST QUERY AND ITS OUTPUT
+
 SELECT * FROM v1;
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/ed008658-1152-4e5f-962e-b97b66cd062c)
 ### QUERY 10
 Delete a view v1.
 ### SQL QUERY
+```
 drop view v1;
+```
 ### TEST QUERY AND ITS OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/c9803a3f-0708-438b-a958-f626d748339e)
-SELECT * FROM v1;
+```SELECT * FROM v1;```
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/fcc076ad-b913-4773-a458-adcb7fc51d19)
-```
+
 ## RESULT :
 Thus the sub queries and views are executed.
